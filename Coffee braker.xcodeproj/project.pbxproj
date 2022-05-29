@@ -15,6 +15,9 @@
 		1250900A2843E0A60073D727 /* Coffee_braker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 125090082843E0A60073D727 /* Coffee_braker.xcdatamodeld */; };
 		125090152843E0A70073D727 /* Coffee_brakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125090142843E0A70073D727 /* Coffee_brakerTests.swift */; };
 		125090202843E0A70073D727 /* Coffee_brakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1250901F2843E0A70073D727 /* Coffee_brakerUITests.swift */; };
+		4521456B8CA7FF71657328FC /* Pods_Coffee_braker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5058B5305B96BAD78696B4 /* Pods_Coffee_braker.framework */; };
+		AA4DACE1A07C33B6231500B8 /* Pods_Coffee_braker_Coffee_brakerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A0FFAAA3F6DC545A7F14D9 /* Pods_Coffee_braker_Coffee_brakerUITests.framework */; };
+		C6DE16403146DD90AE328D14 /* Pods_Coffee_brakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835B9D76CCA92076B2C15ED1 /* Pods_Coffee_brakerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		1250901B2843E0A70073D727 /* Coffee brakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee brakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1250901F2843E0A70073D727 /* Coffee_brakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_brakerUITests.swift; sourceTree = "<group>"; };
 		125090212843E0A70073D727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D3FB9260F63F2040E64215 /* Pods-Coffee brakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee brakerTests.release.xcconfig"; path = "Target Support Files/Pods-Coffee brakerTests/Pods-Coffee brakerTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F2F033BC97A25E1F4AD8F91 /* Pods-Coffee braker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee braker.release.xcconfig"; path = "Target Support Files/Pods-Coffee braker/Pods-Coffee braker.release.xcconfig"; sourceTree = "<group>"; };
+		480429B4B191D4A4C6C73A2A /* Pods-Coffee braker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee braker.debug.xcconfig"; path = "Target Support Files/Pods-Coffee braker/Pods-Coffee braker.debug.xcconfig"; sourceTree = "<group>"; };
+		59A0FFAAA3F6DC545A7F14D9 /* Pods_Coffee_braker_Coffee_brakerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee_braker_Coffee_brakerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		787BF6F6F64AFCE52DB998EE /* Pods-Coffee braker-Coffee brakerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee braker-Coffee brakerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Coffee braker-Coffee brakerUITests/Pods-Coffee braker-Coffee brakerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		835B9D76CCA92076B2C15ED1 /* Pods_Coffee_brakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee_brakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5058B5305B96BAD78696B4 /* Pods_Coffee_braker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee_braker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2886CE72F7FCC05510EBADF /* Pods-Coffee braker-Coffee brakerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee braker-Coffee brakerUITests.release.xcconfig"; path = "Target Support Files/Pods-Coffee braker-Coffee brakerUITests/Pods-Coffee braker-Coffee brakerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBE1F75EA94C7242002511DB /* Pods-Coffee brakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee brakerTests.debug.xcconfig"; path = "Target Support Files/Pods-Coffee brakerTests/Pods-Coffee brakerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4521456B8CA7FF71657328FC /* Pods_Coffee_braker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DE16403146DD90AE328D14 /* Pods_Coffee_brakerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4DACE1A07C33B6231500B8 /* Pods_Coffee_braker_Coffee_brakerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C3A163F0E6FDC06DE3F2DE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B5058B5305B96BAD78696B4 /* Pods_Coffee_braker.framework */,
+				59A0FFAAA3F6DC545A7F14D9 /* Pods_Coffee_braker_Coffee_brakerUITests.framework */,
+				835B9D76CCA92076B2C15ED1 /* Pods_Coffee_brakerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		12508FF12843E09D0073D727 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				125090132843E0A70073D727 /* Coffee brakerTests */,
 				1250901E2843E0A70073D727 /* Coffee brakerUITests */,
 				12508FFB2843E09D0073D727 /* Products */,
+				6964187152FC2B6BC0F64382 /* Pods */,
+				0C3A163F0E6FDC06DE3F2DE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +163,20 @@
 			path = "Coffee brakerUITests";
 			sourceTree = "<group>";
 		};
+		6964187152FC2B6BC0F64382 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				480429B4B191D4A4C6C73A2A /* Pods-Coffee braker.debug.xcconfig */,
+				1F2F033BC97A25E1F4AD8F91 /* Pods-Coffee braker.release.xcconfig */,
+				787BF6F6F64AFCE52DB998EE /* Pods-Coffee braker-Coffee brakerUITests.debug.xcconfig */,
+				A2886CE72F7FCC05510EBADF /* Pods-Coffee braker-Coffee brakerUITests.release.xcconfig */,
+				BBE1F75EA94C7242002511DB /* Pods-Coffee brakerTests.debug.xcconfig */,
+				19D3FB9260F63F2040E64215 /* Pods-Coffee brakerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 125090242843E0A70073D727 /* Build configuration list for PBXNativeTarget "Coffee braker" */;
 			buildPhases = (
+				BF592EDD2D6A250D4B04EAFB /* [CP] Check Pods Manifest.lock */,
 				12508FF62843E09D0073D727 /* Sources */,
 				12508FF72843E09D0073D727 /* Frameworks */,
 				12508FF82843E09D0073D727 /* Resources */,
+				F98A5675700BB95FABDF2CCE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 125090272843E0A70073D727 /* Build configuration list for PBXNativeTarget "Coffee brakerTests" */;
 			buildPhases = (
+				BA88212BCAD4EAC43B7C910E /* [CP] Check Pods Manifest.lock */,
 				1250900C2843E0A70073D727 /* Sources */,
 				1250900D2843E0A70073D727 /* Frameworks */,
 				1250900E2843E0A70073D727 /* Resources */,
@@ -178,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1250902A2843E0A70073D727 /* Build configuration list for PBXNativeTarget "Coffee brakerUITests" */;
 			buildPhases = (
+				36B2B2521D344CAB4088FC5C /* [CP] Check Pods Manifest.lock */,
 				125090172843E0A70073D727 /* Sources */,
 				125090182843E0A70073D727 /* Frameworks */,
 				125090192843E0A70073D727 /* Resources */,
+				8B56B0CD036E86A24C7B3464 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36B2B2521D344CAB4088FC5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coffee braker-Coffee brakerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B56B0CD036E86A24C7B3464 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffee braker-Coffee brakerUITests/Pods-Coffee braker-Coffee brakerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffee braker-Coffee brakerUITests/Pods-Coffee braker-Coffee brakerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coffee braker-Coffee brakerUITests/Pods-Coffee braker-Coffee brakerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA88212BCAD4EAC43B7C910E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coffee brakerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF592EDD2D6A250D4B04EAFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coffee braker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F98A5675700BB95FABDF2CCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffee braker/Pods-Coffee braker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffee braker/Pods-Coffee braker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coffee braker/Pods-Coffee braker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12508FF62843E09D0073D727 /* Sources */ = {
@@ -422,6 +571,7 @@
 		};
 		125090252843E0A70073D727 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480429B4B191D4A4C6C73A2A /* Pods-Coffee braker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +594,7 @@
 		};
 		125090262843E0A70073D727 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F2F033BC97A25E1F4AD8F91 /* Pods-Coffee braker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +617,7 @@
 		};
 		125090282843E0A70073D727 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE1F75EA94C7242002511DB /* Pods-Coffee brakerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +640,7 @@
 		};
 		125090292843E0A70073D727 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D3FB9260F63F2040E64215 /* Pods-Coffee brakerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +663,7 @@
 		};
 		1250902B2843E0A70073D727 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 787BF6F6F64AFCE52DB998EE /* Pods-Coffee braker-Coffee brakerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +684,7 @@
 		};
 		1250902C2843E0A70073D727 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2886CE72F7FCC05510EBADF /* Pods-Coffee braker-Coffee brakerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
