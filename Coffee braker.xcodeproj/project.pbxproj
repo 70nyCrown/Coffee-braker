@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,26 @@
 		1250900A2843E0A60073D727 /* Coffee_braker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 125090082843E0A60073D727 /* Coffee_braker.xcdatamodeld */; };
 		125090152843E0A70073D727 /* Coffee_brakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125090142843E0A70073D727 /* Coffee_brakerTests.swift */; };
 		125090202843E0A70073D727 /* Coffee_brakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1250901F2843E0A70073D727 /* Coffee_brakerUITests.swift */; };
+		129C336E2847F9EC004786FA /* Coffee_brakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12508FFD2843E09D0073D727 /* Coffee_brakerApp.swift */; };
+		129C336F2847F9EC004786FA /* Coffee_brakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12508FFD2843E09D0073D727 /* Coffee_brakerApp.swift */; };
+		129C33712848084F004786FA /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129C33702848084F004786FA /* TestingView.swift */; };
+		129C3373284A36E9004786FA /* CafePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129C3372284A36E9004786FA /* CafePickerView.swift */; };
+		12D245312844076600983C1B /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D245302844076600983C1B /* AuthManager.swift */; };
+		12D24533284407FA00983C1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12D24532284407FA00983C1B /* GoogleService-Info.plist */; };
+		12D24534284407FA00983C1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12D24532284407FA00983C1B /* GoogleService-Info.plist */; };
+		12D24535284407FA00983C1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12D24532284407FA00983C1B /* GoogleService-Info.plist */; };
+		12D2453728440A8600983C1B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2453628440A8500983C1B /* WelcomeView.swift */; };
+		12D2453828440A8600983C1B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2453628440A8500983C1B /* WelcomeView.swift */; };
+		12D2453928440A8600983C1B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2453628440A8500983C1B /* WelcomeView.swift */; };
+		12D2453B28440A9E00983C1B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2453A28440A9E00983C1B /* SignInView.swift */; };
+		12D2453C28440A9E00983C1B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2453A28440A9E00983C1B /* SignInView.swift */; };
+		12D2453D28440A9E00983C1B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2453A28440A9E00983C1B /* SignInView.swift */; };
+		12D2453F28440AAC00983C1B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2453E28440AAC00983C1B /* SignUpView.swift */; };
+		12D2454028440AAC00983C1B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2453E28440AAC00983C1B /* SignUpView.swift */; };
+		12D2454128440AAC00983C1B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2453E28440AAC00983C1B /* SignUpView.swift */; };
+		12D24543284551F800983C1B /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D24542284551F800983C1B /* CatalogView.swift */; };
+		12D24544284551F800983C1B /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D24542284551F800983C1B /* CatalogView.swift */; };
+		12D24545284551F800983C1B /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D24542284551F800983C1B /* CatalogView.swift */; };
 		4521456B8CA7FF71657328FC /* Pods_Coffee_braker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5058B5305B96BAD78696B4 /* Pods_Coffee_braker.framework */; };
 		AA4DACE1A07C33B6231500B8 /* Pods_Coffee_braker_Coffee_brakerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A0FFAAA3F6DC545A7F14D9 /* Pods_Coffee_braker_Coffee_brakerUITests.framework */; };
 		C6DE16403146DD90AE328D14 /* Pods_Coffee_brakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835B9D76CCA92076B2C15ED1 /* Pods_Coffee_brakerTests.framework */; };
@@ -52,6 +72,14 @@
 		1250901B2843E0A70073D727 /* Coffee brakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee brakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1250901F2843E0A70073D727 /* Coffee_brakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_brakerUITests.swift; sourceTree = "<group>"; };
 		125090212843E0A70073D727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		129C33702848084F004786FA /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
+		129C3372284A36E9004786FA /* CafePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafePickerView.swift; sourceTree = "<group>"; };
+		12D245302844076600983C1B /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		12D24532284407FA00983C1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		12D2453628440A8500983C1B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		12D2453A28440A9E00983C1B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		12D2453E28440AAC00983C1B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		12D24542284551F800983C1B /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
 		19D3FB9260F63F2040E64215 /* Pods-Coffee brakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee brakerTests.release.xcconfig"; path = "Target Support Files/Pods-Coffee brakerTests/Pods-Coffee brakerTests.release.xcconfig"; sourceTree = "<group>"; };
 		1F2F033BC97A25E1F4AD8F91 /* Pods-Coffee braker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee braker.release.xcconfig"; path = "Target Support Files/Pods-Coffee braker/Pods-Coffee braker.release.xcconfig"; sourceTree = "<group>"; };
 		480429B4B191D4A4C6C73A2A /* Pods-Coffee braker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee braker.debug.xcconfig"; path = "Target Support Files/Pods-Coffee braker/Pods-Coffee braker.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,12 +155,15 @@
 			isa = PBXGroup;
 			children = (
 				12508FFD2843E09D0073D727 /* Coffee_brakerApp.swift */,
-				12508FFF2843E09D0073D727 /* ContentView.swift */,
+				12D2452F2844073900983C1B /* ViewModel */,
+				12D2452E2844073300983C1B /* Model */,
+				12D2452D2844072C00983C1B /* View */,
 				125090012843E0A60073D727 /* Assets.xcassets */,
-				125090062843E0A60073D727 /* Persistence.swift */,
 				1250900B2843E0A60073D727 /* Info.plist */,
+				12D24532284407FA00983C1B /* GoogleService-Info.plist */,
 				125090082843E0A60073D727 /* Coffee_braker.xcdatamodeld */,
 				125090032843E0A60073D727 /* Preview Content */,
+				129C336D2847F995004786FA /* Default stuff */,
 			);
 			path = "Coffee braker";
 			sourceTree = "<group>";
@@ -163,6 +194,43 @@
 			path = "Coffee brakerUITests";
 			sourceTree = "<group>";
 		};
+		129C336D2847F995004786FA /* Default stuff */ = {
+			isa = PBXGroup;
+			children = (
+				12508FFF2843E09D0073D727 /* ContentView.swift */,
+			);
+			path = "Default stuff";
+			sourceTree = "<group>";
+		};
+		12D2452D2844072C00983C1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12D2453628440A8500983C1B /* WelcomeView.swift */,
+				12D2453A28440A9E00983C1B /* SignInView.swift */,
+				12D2453E28440AAC00983C1B /* SignUpView.swift */,
+				12D24542284551F800983C1B /* CatalogView.swift */,
+				129C33702848084F004786FA /* TestingView.swift */,
+				129C3372284A36E9004786FA /* CafePickerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12D2452E2844073300983C1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12D245302844076600983C1B /* AuthManager.swift */,
+				125090062843E0A60073D727 /* Persistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12D2452F2844073900983C1B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		6964187152FC2B6BC0F64382 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,7 +241,6 @@
 				BBE1F75EA94C7242002511DB /* Pods-Coffee brakerTests.debug.xcconfig */,
 				19D3FB9260F63F2040E64215 /* Pods-Coffee brakerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -287,6 +354,7 @@
 			files = (
 				125090052843E0A60073D727 /* Preview Assets.xcassets in Resources */,
 				125090022843E0A60073D727 /* Assets.xcassets in Resources */,
+				12D24533284407FA00983C1B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +362,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D24534284407FA00983C1B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D24535284407FA00983C1B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,9 +485,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1250900A2843E0A60073D727 /* Coffee_braker.xcdatamodeld in Sources */,
+				129C3373284A36E9004786FA /* CafePickerView.swift in Sources */,
+				129C33712848084F004786FA /* TestingView.swift in Sources */,
+				12D24543284551F800983C1B /* CatalogView.swift in Sources */,
+				12D2453B28440A9E00983C1B /* SignInView.swift in Sources */,
+				12D2453728440A8600983C1B /* WelcomeView.swift in Sources */,
 				125090072843E0A60073D727 /* Persistence.swift in Sources */,
+				12D2453F28440AAC00983C1B /* SignUpView.swift in Sources */,
 				125090002843E09D0073D727 /* ContentView.swift in Sources */,
 				12508FFE2843E09D0073D727 /* Coffee_brakerApp.swift in Sources */,
+				12D245312844076600983C1B /* AuthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +502,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D2454028440AAC00983C1B /* SignUpView.swift in Sources */,
+				12D2453C28440A9E00983C1B /* SignInView.swift in Sources */,
 				125090152843E0A70073D727 /* Coffee_brakerTests.swift in Sources */,
+				12D2453828440A8600983C1B /* WelcomeView.swift in Sources */,
+				129C336F2847F9EC004786FA /* Coffee_brakerApp.swift in Sources */,
+				12D24544284551F800983C1B /* CatalogView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +515,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D2454128440AAC00983C1B /* SignUpView.swift in Sources */,
+				12D2453D28440A9E00983C1B /* SignInView.swift in Sources */,
 				125090202843E0A70073D727 /* Coffee_brakerUITests.swift in Sources */,
+				12D2453928440A8600983C1B /* WelcomeView.swift in Sources */,
+				129C336E2847F9EC004786FA /* Coffee_brakerApp.swift in Sources */,
+				12D24545284551F800983C1B /* CatalogView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
