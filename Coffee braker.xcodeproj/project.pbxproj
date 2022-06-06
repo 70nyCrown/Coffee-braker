@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		12508FFE2843E09D0073D727 /* Coffee_brakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12508FFD2843E09D0073D727 /* Coffee_brakerApp.swift */; };
-		125090002843E09D0073D727 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12508FFF2843E09D0073D727 /* ContentView.swift */; };
 		125090022843E0A60073D727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125090012843E0A60073D727 /* Assets.xcassets */; };
 		125090052843E0A60073D727 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125090042843E0A60073D727 /* Preview Assets.xcassets */; };
 		125090072843E0A60073D727 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125090062843E0A60073D727 /* Persistence.swift */; };
@@ -60,7 +59,6 @@
 /* Begin PBXFileReference section */
 		12508FFA2843E09D0073D727 /* Coffee braker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee braker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12508FFD2843E09D0073D727 /* Coffee_brakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_brakerApp.swift; sourceTree = "<group>"; };
-		12508FFF2843E09D0073D727 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		125090012843E0A60073D727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		125090042843E0A60073D727 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		125090062843E0A60073D727 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -161,9 +159,7 @@
 				125090012843E0A60073D727 /* Assets.xcassets */,
 				1250900B2843E0A60073D727 /* Info.plist */,
 				12D24532284407FA00983C1B /* GoogleService-Info.plist */,
-				125090082843E0A60073D727 /* Coffee_braker.xcdatamodeld */,
 				125090032843E0A60073D727 /* Preview Content */,
-				129C336D2847F995004786FA /* Default stuff */,
 			);
 			path = "Coffee braker";
 			sourceTree = "<group>";
@@ -194,14 +190,6 @@
 			path = "Coffee brakerUITests";
 			sourceTree = "<group>";
 		};
-		129C336D2847F995004786FA /* Default stuff */ = {
-			isa = PBXGroup;
-			children = (
-				12508FFF2843E09D0073D727 /* ContentView.swift */,
-			);
-			path = "Default stuff";
-			sourceTree = "<group>";
-		};
 		12D2452D2844072C00983C1B /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +208,7 @@
 			children = (
 				12D245302844076600983C1B /* AuthManager.swift */,
 				125090062843E0A60073D727 /* Persistence.swift */,
+				125090082843E0A60073D727 /* Coffee_braker.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -492,7 +481,6 @@
 				12D2453728440A8600983C1B /* WelcomeView.swift in Sources */,
 				125090072843E0A60073D727 /* Persistence.swift in Sources */,
 				12D2453F28440AAC00983C1B /* SignUpView.swift in Sources */,
-				125090002843E09D0073D727 /* ContentView.swift in Sources */,
 				12508FFE2843E09D0073D727 /* Coffee_brakerApp.swift in Sources */,
 				12D245312844076600983C1B /* AuthManager.swift in Sources */,
 			);

@@ -22,8 +22,8 @@ struct Coffee_brakerApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
-        WindowGroup {t
-            TestingView()
+        WindowGroup {
+            WelcomeView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
