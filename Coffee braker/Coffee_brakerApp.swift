@@ -8,22 +8,17 @@
 import SwiftUI
 import FirebaseCore
 
-class AppDelegate: NSObject, UIApplicationDelegate {
-  func application(_ application: UIApplication,
-                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-    FirebaseApp.configure()
-
-    return true
-  }
-}
-
 @main
 struct Coffee_brakerApp: App {
     let persistenceController = PersistenceController.shared
-
+    
+    init() {
+        FirebaseApp.configure()
+      }
+    
     var body: some Scene {
         WindowGroup {
-            WelcomeView()
+            SignInView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

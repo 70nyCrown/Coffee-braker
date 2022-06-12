@@ -8,22 +8,32 @@
 import SwiftUI
 
 struct SignInView: View {
+    
+    let authManager = AuthManager()
+    
+    @State var username: String = ""
+    @State var password: String = ""
+    
     var body: some View {
         ZStack {
             
             VStack {
                 
-                Text("email")
-                    .padding(10)
-                Text("password")
-                    .padding(10)
+                TextField("Username", text: $username)
+                    .padding(UIScreen.main.bounds.width/20)
+                TextField("Password", text: $password)
+                    .textContentType(.password)
+                    .padding(UIScreen.main.bounds.width/20)
                 Button(action: {
-                    
+                    print("Sign In Button pressed")
+                    authManager.signIn(email: username, password: password)
+                    print("authManager's method passed")
                 }, label: {
-                    /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+                    Text("Sign In")
                 })
+                    .padding(UIScreen.main.bounds.width/20)
             }
-            
+            .frame(width: UIScreen.main.bounds.width/1.5, height: UIScreen.main.bounds.height/2, alignment: .center)
         }
     }
 }

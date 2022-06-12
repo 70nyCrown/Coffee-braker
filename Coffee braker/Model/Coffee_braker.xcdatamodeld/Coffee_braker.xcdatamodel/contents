@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G624" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Position" representedClassName="Position" syncable="YES" codeGenerationType="class">
+    <entity name="PositionData" representedClassName="PositionData" syncable="YES" codeGenerationType="class">
         <attribute name="picture" optional="YES" attributeType="Binary"/>
         <attribute name="pricePerVolume" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="title" optional="YES" attributeType="String"/>
@@ -10,7 +10,7 @@
         <attribute name="cafes" optional="YES" attributeType="Binary"/>
     </entity>
     <elements>
-        <element name="Position" positionX="-58.5401611328125" positionY="91.31549072265625" width="128" height="89"/>
+        <element name="PositionData" positionX="-10.99700927734375" positionY="22.3780517578125" width="128" height="103"/>
         <element name="SearchHistory" positionX="134.6836547851562" positionY="24.94598388671875" width="128" height="44"/>
     </elements>
 </model>
