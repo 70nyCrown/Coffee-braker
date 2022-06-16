@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		123019C82857517A00755330 /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123019C72857517A00755330 /* UserDefaultsKey.swift */; };
+		123019CA2857528900755330 /* ViewTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123019C92857528900755330 /* ViewTag.swift */; };
 		12508FFE2843E09D0073D727 /* Coffee_brakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12508FFD2843E09D0073D727 /* Coffee_brakerApp.swift */; };
 		125090022843E0A60073D727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125090012843E0A60073D727 /* Assets.xcassets */; };
 		125090052843E0A60073D727 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125090042843E0A60073D727 /* Preview Assets.xcassets */; };
@@ -59,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		123019C72857517A00755330 /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
+		123019C92857528900755330 /* ViewTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTag.swift; sourceTree = "<group>"; };
 		12508FFA2843E09D0073D727 /* Coffee braker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee braker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12508FFD2843E09D0073D727 /* Coffee_brakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_brakerApp.swift; sourceTree = "<group>"; };
 		125090012843E0A60073D727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -215,6 +219,8 @@
 				125090082843E0A60073D727 /* Coffee_braker.xcdatamodeld */,
 				12EC2F292850EB9F00297A66 /* PositionDataModel.swift */,
 				12EC2F2B2850F46800297A66 /* TestDataSets.swift */,
+				123019C72857517A00755330 /* UserDefaultsKey.swift */,
+				123019C92857528900755330 /* ViewTag.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -481,6 +487,7 @@
 			files = (
 				12EC2F2A2850EBA000297A66 /* PositionDataModel.swift in Sources */,
 				1250900A2843E0A60073D727 /* Coffee_braker.xcdatamodeld in Sources */,
+				123019C82857517A00755330 /* UserDefaultsKey.swift in Sources */,
 				129C3373284A36E9004786FA /* CafePickerView.swift in Sources */,
 				129C33712848084F004786FA /* TestingView.swift in Sources */,
 				12D24543284551F800983C1B /* CatalogView.swift in Sources */,
@@ -489,6 +496,7 @@
 				12D2453728440A8600983C1B /* WelcomeView.swift in Sources */,
 				125090072843E0A60073D727 /* Persistence.swift in Sources */,
 				12D2453F28440AAC00983C1B /* SignUpView.swift in Sources */,
+				123019CA2857528900755330 /* ViewTag.swift in Sources */,
 				12508FFE2843E09D0073D727 /* Coffee_brakerApp.swift in Sources */,
 				12D245312844076600983C1B /* AuthManager.swift in Sources */,
 			);

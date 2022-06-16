@@ -14,11 +14,12 @@ struct Coffee_brakerApp: App {
     
     init() {
         FirebaseApp.configure()
+        let defaults = UserDefaults.standard
       }
     
     var body: some Scene {
         WindowGroup {
-            SignInView()
+            WelcomeView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

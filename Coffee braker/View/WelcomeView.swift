@@ -12,10 +12,28 @@ func onPress(buttonName : String) {
 }
 
 struct WelcomeView: View {
+    
+    @State var tagSelection: String? = nil
+    
     var body: some View {
         NavigationView {
             
             ZStack{
+                
+                //MARK: Navigation Links
+                NavigationLink(
+                    destination: SignInView(tagSelection: $tagSelection),
+                    tag: "signInView",
+                    selection: $tagSelection,
+                    label: { EmptyView() })
+
+                NavigationLink(
+                    destination: SignUpView(),
+                    tag: "signUpView",
+                    selection: $tagSelection,
+                    label: { EmptyView() })
+                
+                //MARK: Visual UI
                 LinearGradient(gradient: Gradient(colors: [.black, Color(CGColor(red: 0.4, green: 0.25, blue: 0.15, alpha: 1.0))]), startPoint: .topLeading, endPoint: .bottomTrailing)
                     .ignoresSafeArea()
                 
@@ -28,11 +46,9 @@ struct WelcomeView: View {
                     HStack {
                         Button(action: {
                             onPress(buttonName: "Sign In")
-                            NavigationLink(
-                                destination: SignInView(),
-                                label: {
-                                    Text("SignInView")
-                                })
+                            print("WelcomeView \(tagSelection)")
+                            tagSelection = "signInView"
+                            print("WelcomeView \(tagSelection)")
                         }, label: {
                             Text("Sign In")
                                 .foregroundColor(.black)
@@ -44,6 +60,9 @@ struct WelcomeView: View {
                             
                         Button(action: {
                             onPress(buttonName: "Sign Up")
+                            print("WelcomeView \(tagSelection)")
+                            tagSelection = "signUpView"
+                            print("WelcomeView \(tagSelection)")
                         }, label: {
                             Text("Sign Up")
                                 .foregroundColor(.black)

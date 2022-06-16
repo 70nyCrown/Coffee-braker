@@ -9,12 +9,9 @@ import SwiftUI
 
 struct CafePickerView: View {
     var body: some View {
-        NavigationView {
-            
-            
-        }
-        .navigationBarTitle("Pick your city").foregroundColor(.black)
-        .foregroundColor(.black)
+        
+        Text("Cafe picker")
+        
     }
 }
 
