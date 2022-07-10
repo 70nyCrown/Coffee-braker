@@ -13,48 +13,49 @@ struct SignInView: View {
     
     @State var username: String = "testemail@test.com"
     @State var password: String = "test1234"
-    @State var isPassed: Bool = false
-    
-    @Binding var tagSelection: String?
+    @State private var isCafePickerViewActive = false
     
     var body: some View {
+        
         ZStack {
             
             VStack {
-                    
+                
+                //MARK: Navigation Links
                 NavigationLink(
                     destination: CafePickerView(),
-                    tag: "cafePickerView",
-                    selection: $tagSelection,
-                    label: { EmptyView() })
+                    isActive: $isCafePickerViewActive,
+                    label: {
+                        EmptyView()
+                    })
                 
+                //MARK: Visual UI
                 TextField("Username", text: $username)
                     .padding(UIScreen.main.bounds.width/20)
                 
                 SecureField("Password", text: $password)
                     .padding(UIScreen.main.bounds.width/20)
                 
+                //MARK: Buttons
                 Button(action: {
+                    
                     print("Sign In Button pressed")
-                    print("1 SingInView \(tagSelection)")
-                    print("1 SingInView isPassed - \(isPassed)")
-                    authManager.signIn(email: username, password: password)
-                    isPassed = authManager.isSigned
-                    print("2 SingInView isPassed - \(isPassed)")
-                    if isPassed {
-                        print("AuthManager returned TRUE")
-                        print("2 SingInView \(tagSelection)")
-                        tagSelection = "cafePickerView"
-                        print("3 SingInView \(tagSelection)")
+
+                    authManager.signIn(email: username, password: password) { isSigned in
+                        isSigned ? isCafePickerViewActive.toggle() : print("ERROR Sign In button")
                     }
-                    print("4 SingInView \(tagSelection)")
-                    print("authManager's method passed")
                 }, label: {
                     Text("Sign In")
                 })
                     .padding(UIScreen.main.bounds.width/20)
             }
             .frame(width: UIScreen.main.bounds.width/1.5, height: UIScreen.main.bounds.height/2, alignment: .center)
+        }
+        .onAppear {
+            print("SingInView On Appear")
+        }
+        .onDisappear {
+            print("SingInView On Disappear")
         }
     }
 }

@@ -7,12 +7,9 @@
 
 import Foundation
 
-class UserDefaultsKey {
+struct UserDefaultsKey {
     
-    static let key = UserDefaultsKey()
+    static let isSignedIn: String = "isSignedIn"
+    static let pickedCafe: String = "pickedCafe"
     
-    let isSignedIn: String = "isSignedIn"
-    let pickedCafe: String = "pickedCafe"
-    
-    private init() {}
 }

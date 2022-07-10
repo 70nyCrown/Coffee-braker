@@ -10,103 +10,45 @@ import FirebaseAuth
 
 class AuthManager {
     
-    var isSigned = false
     
-    func signIn(email: String?, password: String?, isSigned: Bool) {
+    func signIn(email: String?, password: String?, completion: @escaping (_ isSigned: Bool) -> Void) {
         
-        print("1 AuthManager signIn() - \(isSigned)")
-        
-        //MARK: New Implementation
         guard let email = email else {
-            print("ERROR - Enter email")
-            print("1.1 AuthManager signIn() - \(isSigned)")
+            print("AuthManager ERROR - Enter email")
             return
         }
         guard let password = password else {
-            print("ERROR - Enter password")
-            print("1.2 AuthManager signIn() - \(isSigned)")
+            print("AuthManager ERROR - Enter password")
             return
         }
         
         print("AuthManager entered Firebase methods")
         
         Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
-            result = true
-            print("2 AuthManager signIn() - \(isSigned)")
 
             if let error = error {
-                self.isSigned = false
-                print("ERROR is caught in SignIn!")
-                print("2.1 AuthManager signIn() - \(self.isSigned)")
+                completion(false)
+                print("Firebase ERROR is caught in SignIn!")
                 print(error)
             } else {
-                print("Signed in successfully!")
-                print("2.2.1 AuthManager signIn() isSigned - \(self.isSigned)")
-                self.isSigned = true
-                print("2.2.2 AuthManager signIn() isSigned - \(self.isSigned)")
+                print("Firebase Signed in successfully!")
+                print(authResult)
+                completion(true)
             }
         }
         
         print("AuthManager exited Firebase methods")
-     
-        print("3 AuthManager signIn() - \(isSigned)")
     }
     
-//    func signIn(email: String?, password: String?) -> Bool {
-//
-//        var result = false
-//
-//        print("1 AuthManager signIn() - \(result)")
-//
-//        //MARK: New Implementation
-//        guard let email = email else {
-//            print("ERROR - Enter email")
-//            print("1.1 AuthManager signIn() - \(result)")
-//            return false
-//        }
-//        guard let password = password else {
-//            print("ERROR - Enter password")
-//            print("1.2 AuthManager signIn() - \(result)")
-//            return false
-//        }
-//
-//        print("AuthManager entered Firebase methods")
-//
-//        Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
-//            result = true
-//            print("2 AuthManager signIn() - \(result)")
-//
-//            if let error = error {
-//                result = false
-//                print("ERROR is caught in SignIn!")
-//                print("2.1 AuthManager signIn() - \(result)")
-//                print(error)
-//            } else {
-//                print("Signed in successfully!")
-//                print("2.2.1 AuthManager signIn() isSigned - \(self.isSigned)")
-//                self.isSigned = true
-//                print("2.2.2 AuthManager signIn() isSigned - \(self.isSigned)")
-//            }
-//        }
-//
-//        print("AuthManager exited Firebase methods")
-//
-//        print("3 AuthManager signIn() - \(result)")
-//        return result
-//    }
-    
-    
-    func signUp(email: String?, password: String?) -> Bool {
-        
-        var result = false
+    func signUp(email: String?, password: String?, completion: @escaping (_ isSignedUp: Bool) -> Void) {
         
         guard let email = email else {
             print("ERROR - Enter email")
-            return false
+            return
         }
         guard let password = password else {
             print("ERROR - Enter password")
-            return false
+            return
         }
         
         Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
@@ -114,13 +56,12 @@ class AuthManager {
             if let error = error {
                 print("ERROR is caught in SignIn!")
                 print(error)
+                completion(false)
             } else {
-                print("Signed in successfully!")
-                result = true
+                print("Signed up successfully!")
+                print(authResult)
+                completion(true)
             }
         }
-        
-        return result
-        
     }
 }

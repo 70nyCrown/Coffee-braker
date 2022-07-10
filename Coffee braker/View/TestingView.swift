@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct TestingView: View {
     
     @State var text = "I'm a default text"

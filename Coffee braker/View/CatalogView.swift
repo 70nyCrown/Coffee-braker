@@ -11,6 +11,7 @@ enum temperatureUnit : String {
     case F = "F"
     case C = "C"
     case K = "K"
+    //rawValue?
 }
 
 let gradientGray: CGFloat = 0.3

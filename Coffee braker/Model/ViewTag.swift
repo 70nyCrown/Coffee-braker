@@ -20,6 +20,12 @@ enum Tag: String {
     
 }
 
+struct Consts {
+    static let a = "bruh"
+    static let b = "what are you looking dor, buddy?"
+}
+
+
 class ViewTag: ObservableObject {
     
     @Published var tag: String = Tag.welcomeView.rawValue

@@ -11,6 +11,7 @@ import FirebaseCore
 @main
 struct Coffee_brakerApp: App {
     let persistenceController = PersistenceController.shared
+    let defaults = UserDefaults.standard
     
     init() {
         FirebaseApp.configure()
@@ -19,7 +20,7 @@ struct Coffee_brakerApp: App {
     
     var body: some Scene {
         WindowGroup {
-            WelcomeView()
+            InitialView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
